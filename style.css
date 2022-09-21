@@ -83,7 +83,7 @@ h3 {
   font-size: 25px;
   margin-bottom: 50px;
 }
-h4{
+h4 {
   color: #fcfc;
   letter-spacing: 2px;
   font-size: 20px;
@@ -103,7 +103,7 @@ h4{
   outline: none;
   border-radius: 30px;
 }
-.newsletter form input:last-child{
+.newsletter form input:last-child {
   position: absolute;
   display: inline-block;
   outline: none;
@@ -116,19 +116,47 @@ h4{
   top: 6px;
   right: 6px;
 }
-.about{
+.about {
   width: 10px;
   padding: 100px 0px;
   background-color: #191919;
 }
-.about img{
+.about img {
   height: auto;
   width: 430px;
 }
-.about-text{
+.about-text {
   width: 550px;
 }
-.main{
+.main {
   width: 1130px;
-  max-width
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-text h2 {
+  color: white;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.about-text h5 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+.about-text p {
+  color: white;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+button{
+  background-color: #f9004d
+  color:;
 }
